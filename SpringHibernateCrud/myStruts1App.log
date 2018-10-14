@@ -1,0 +1,38 @@
+2018-10-14 16:09:36 TRACE CachedIntrospectionResults:302 - Found bean property 'mappingDirectoryLocations' of type [[Lorg.springframework.core.io.Resource;]
+2018-10-14 16:09:36 TRACE CachedIntrospectionResults:302 - Found bean property 'mappingJarLocations' of type [[Lorg.springframework.core.io.Resource;]
+2018-10-14 16:09:36 TRACE CachedIntrospectionResults:302 - Found bean property 'mappingLocations' of type [[Lorg.springframework.core.io.Resource;]
+2018-10-14 16:09:36 TRACE CachedIntrospectionResults:302 - Found bean property 'mappingResources' of type [[Ljava.lang.String;]
+2018-10-14 16:09:36 TRACE CachedIntrospectionResults:302 - Found bean property 'namingStrategy' of type [org.hibernate.cfg.NamingStrategy]
+2018-10-14 16:09:36 TRACE CachedIntrospectionResults:302 - Found bean property 'object' of type [org.hibernate.SessionFactory]
+2018-10-14 16:09:36 TRACE CachedIntrospectionResults:302 - Found bean property 'objectType' of type [java.lang.Class]
+2018-10-14 16:09:36 TRACE CachedIntrospectionResults:302 - Found bean property 'packagesToScan' of type [[Ljava.lang.String;]
+2018-10-14 16:09:36 TRACE CachedIntrospectionResults:302 - Found bean property 'resourceLoader' of type [org.springframework.core.io.ResourceLoader]
+2018-10-14 16:09:36 TRACE CachedIntrospectionResults:302 - Found bean property 'schemaUpdate' of type [boolean]
+2018-10-14 16:09:36 TRACE CachedIntrospectionResults:302 - Found bean property 'singleton' of type [boolean]
+2018-10-14 16:09:36 TRACE CachedIntrospectionResults:302 - Found bean property 'typeDefinitions' of type [[Lorg.springframework.orm.hibernate3.TypeDefinitionBean;]
+2018-10-14 16:09:36 TRACE CachedIntrospectionResults:302 - Found bean property 'useTransactionAwareDataSource' of type [boolean]
+2018-10-14 16:09:36 TRACE TypeConverterDelegate:400 - Converting String to [class java.lang.Class] using property editor [org.springframework.beans.propertyeditors.ClassEditor@36b4cef0]
+2018-10-14 16:09:36 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name 'hibernate4AnnotatedSessionFactory'
+2018-10-14 16:09:37 INFO  AnnotationSessionFactoryBean:713 - Building new Hibernate SessionFactory
+2018-10-14 16:09:38 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'hibernate4AnnotatedSessionFactory'
+2018-10-14 16:09:38 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'EmployeeDao'
+2018-10-14 16:09:38 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'EmployeeDao'
+2018-10-14 16:09:38 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'EmployeeDao' to allow for resolving potential circular references
+2018-10-14 16:09:38 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'hibernate4AnnotatedSessionFactory'
+2018-10-14 16:09:38 TRACE CachedIntrospectionResults:270 - Getting BeanInfo for class [dao.EmployeeImpl]
+2018-10-14 16:09:38 TRACE CachedIntrospectionResults:289 - Caching PropertyDescriptors for class [dao.EmployeeImpl]
+2018-10-14 16:09:38 TRACE CachedIntrospectionResults:302 - Found bean property 'class' of type [java.lang.Class]
+2018-10-14 16:09:38 TRACE CachedIntrospectionResults:302 - Found bean property 'sessionFactory' of type [org.hibernate.SessionFactory]
+2018-10-14 16:09:38 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'EmployeeDao'
+2018-10-14 16:09:38 DEBUG ClassPathXmlApplicationContext:700 - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@7e5c856f]
+2018-10-14 16:09:38 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'lifecycleProcessor'
+2018-10-14 16:09:38 TRACE ClassPathXmlApplicationContext:331 - Publishing event in org.springframework.context.support.ClassPathXmlApplicationContext@6996db8: org.springframework.context.event.ContextRefreshedEvent[source=org.springframework.context.support.ClassPathXmlApplicationContext@6996db8: startup date [Sun Oct 14 16:09:36 IST 2018]; root of context hierarchy]
+2018-10-14 16:09:38 TRACE PropertySourcesPropertyResolver:76 - getProperty("spring.liveBeansView.mbeanDomain", String)
+2018-10-14 16:09:38 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2018-10-14 16:09:38 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2018-10-14 16:09:38 TRACE SystemEnvironmentPropertySource:80 - PropertySource [systemEnvironment] does not contain 'spring.liveBeansView.mbeanDomain'
+2018-10-14 16:09:38 TRACE SystemEnvironmentPropertySource:80 - PropertySource [systemEnvironment] does not contain 'spring_liveBeansView_mbeanDomain'
+2018-10-14 16:09:38 TRACE SystemEnvironmentPropertySource:80 - PropertySource [systemEnvironment] does not contain 'SPRING.LIVEBEANSVIEW.MBEANDOMAIN'
+2018-10-14 16:09:38 TRACE SystemEnvironmentPropertySource:80 - PropertySource [systemEnvironment] does not contain 'SPRING_LIVEBEANSVIEW_MBEANDOMAIN'
+2018-10-14 16:09:38 DEBUG PropertySourcesPropertyResolver:103 - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2018-10-14 16:09:38 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'EmployeeDao'
